@@ -12,6 +12,7 @@ const Page: React.FC = () => {
   return (
     <Button
       onClick={() => {
+        console.log('我只点击了一次')
         setA(a + 1)
         setB(b + 1)
       }}
